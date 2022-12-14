@@ -207,11 +207,11 @@ img {
 }
 
 .expand-btn::before {
-	content: "Expand";
+	content: "Read More";
 }
 
 .expand-btn:checked::before {
-	content: "Collapse";
+	content: "Read Less";
 }
 
 
@@ -224,8 +224,8 @@ img {
 	z-index: 100 !important;
 }
 
+/*HOVER EFFECTS*/
 @media (hover: hover) {
-	/*HOVER EFFECTS*/
 	.zoom {
 		transition: all 0.2s;}
 
@@ -256,10 +256,6 @@ img {
 	.zoom-line:hover::after {
 		width: 100%;
 	}
-}
-
-@media (hover: none) {
-	
 }
 
 /* ABOUT ME */
